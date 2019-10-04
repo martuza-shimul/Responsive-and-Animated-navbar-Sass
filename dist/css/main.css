@@ -19,6 +19,13 @@
   transition: 0.4s ease-out;
 }
 
+.main-header .logo {
+  border: 1px solid #000;
+  border-radius: 10px 0;
+  padding: 7px;
+  font-weight: 900;
+}
+
 .main-header a {
   text-decoration: none;
   color: inherit;
@@ -126,6 +133,10 @@
 
 .main-header.scrolled .menu-icon_line, .main-header.scrolled .menu-icon_line::before, .main-header.scrolled .menu-icon_line::after {
   background: #fff;
+}
+
+.main-header.scrolled .logo {
+  border: 1px solid #fff;
 }
 
 .hero {
